@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="it_pcru">IT PCRU</string>
+    <string name="com">COM</string>
+    <string name="information">Information</string>
+    <string name="T">ข้อมูลหลักสูตร</string>
+    <string name="computer">COMPUTER</string>
+    <string name="HOME">HOME</string>
+    <string name="INFORMATION">INFORMATION</string>
+</resources>

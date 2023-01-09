@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pcru3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/T"
+        android:textColor="#220044"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationY="210dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="-20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/computer"
+        android:textColor="#220044"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationY="230dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="NextPage1"
+        android:text="@string/com"
+        android:textSize="25sp"
+        android:translationX="1dp"
+        android:translationY="230dp"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/INFORMATION"
+    android:textColor="#220044"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:translationY="230dp"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="126dp"
+    tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="NextPage2"
+        android:text="@string/it_pcru"
+        android:textSize="25sp"
+        android:translationX="1dp"
+        android:translationY="230dp"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="รูปสุดหล่อ"
+        android:textColor="#220044"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationY="230dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="NextPage3"
+        android:text="Profile"
+        android:textSize="25sp"
+        android:translationX="1dp"
+        android:translationY="230dp"
+        tools:ignore="MissingConstraints,UsingOnClickInXml"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+</LinearLayout>
